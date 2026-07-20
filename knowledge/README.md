@@ -1,57 +1,55 @@
-# Base de connaissance — Assistant météo trek
+# Base de connaissance — Assistant de décision trek
 
-Ce dossier est la **source de vérité éditoriale** de l’assistant. Le fichier `index.html` est l’interface d’exécution : il doit rester cohérent avec les règles décrites ici.
+Ce dossier est la **source de vérité éditoriale**. `index.html` ne doit afficher qu’une logique validée ici.
 
-## Principe directeur
+## Finalité
 
-L’utilisateur se trouve potentiellement sous la pluie, dans le vent, fatigué ou inquiet. Il ne doit pas interpréter une formule abstraite. L’assistant doit :
+L’utilisateur peut être mouillé, fatigué, inquiet ou pressé. L’assistant doit produire une conduite faisable immédiatement, dans le bon ordre, jusqu’à une situation stable.
 
-1. identifier la **phase du trek** ;
-2. identifier les **signaux météo et dangers immédiats** ;
-3. recueillir les **conditions concrètes** du groupe, du terrain et du matériel ;
-4. choisir une décision explicite ;
-5. fournir une checklist ordonnée jusqu’à une situation stable ;
-6. proposer systématiquement **« Je ne sais pas / aucune réponse ne convient »**.
+Il doit toujours :
 
-## Ordre de priorité
+1. identifier la phase du trek et l’état réel de l’abri ;
+2. recueillir les dangers et les faits observables ;
+3. générer plusieurs actions candidates ;
+4. les classer avec le barème de `coherence.md` ;
+5. supprimer toute action incompatible ou dont les préconditions manquent ;
+6. afficher une décision unique et une checklist ordonnée ;
+7. proposer « Je ne sais pas / aucune proposition ne convient ».
 
-1. Danger vital ou évolutif : orage, crue, hypothermie, chute de pierres, blessure grave.
-2. Sortir de l’exposition : crête, col, couloir, ravine, berge, pente où une glissade serait grave.
-3. Préserver les capacités essentielles : personne, abri, duvet, couche sèche, navigation, communication.
-4. Adapter l’objectif : continuer, raccourcir, rejoindre une échappatoire, bivouaquer, faire demi-tour.
-5. Réévaluer après un délai ou à un point précis.
+## Ordre opérationnel
 
-## Vocabulaire opérationnel
+1. Écarter un danger vital actif.
+2. Quitter une exposition immédiate.
+3. Créer ou rejoindre une protection viable.
+4. Préserver la personne, le duvet, la couche sèche, la navigation et la communication.
+5. Stabiliser le camp ou choisir un repli.
+6. Définir quand et selon quels critères réévaluer.
 
-- **Échappatoire** : itinéraire secondaire permettant de quitter rapidement l’étape vers une route, un refuge, une vallée ou un terrain plus sûr.
-- **Point sûr** : emplacement stable, hors crête, hors ravine, hors berge et sans danger de chute immédiate.
-- **Passage exposé** : section où une glissade ou une erreur aurait des conséquences graves.
-- **Marge** : réserve d’heure, d’énergie, de chaleur, de visibilité et d’options de repli.
-- **Bivouac acceptable** : terrain plat ou légèrement bombé, drainant, hors écoulement, hors chute de pierres et suffisamment protégé du vent.
-
-## Règle d’incertitude
-
-Une réponse incertaine ne doit jamais être forcée. La branche « Je ne sais pas » :
-
-- reformule la question avec des signes observables ;
-- propose une évaluation prudente ;
-- recommande de rejoindre le dernier point sûr si l’incertitude porte sur un danger important.
+Un danger prioritaire ne doit pas effacer le contexte. Exemple : orage + arrivée au bivouac + tente non montée + pluie et vent ne signifie pas « attendre ». La décision cohérente est : évaluer en quelques secondes un emplacement non inondable et non exposé, monter l’abri sans délai, protéger le couchage, entrer, se changer, isoler les vêtements mouillés, puis attendre avant toute reprise exposée.
 
 ## Fichiers
 
-- `pluie.md` : arbre principal, contexte de marche et logique de décision.
-- `dangers-prioritaires.md` : orage, hypothermie, crue et terrain instable.
-- `bivouac.md` : arrivée, montage, camp installé et démontage.
-- `glossaire.md` : termes affichés dans l’interface.
+- `coherence.md` : barème, préconditions, incompatibilités et test de validation.
+- `pluie.md` : décisions de progression et de repli sous pluie.
+- `dangers-prioritaires.md` : orage, hypothermie, crue, terrain instable et blessure.
+- `bivouac.md` : choix du site, montage, camp installé et démontage.
+- `glossaire.md` : vocabulaire concret de l’interface.
 
-## Maintenance
+## Règle d’incertitude
+
+L’incertitude n’autorise jamais une réponse arbitraire. Elle déclenche une option prudente et réversible : arrêt sur un point stable, vérification de faits simples, confirmation de la position, recherche du dernier point sûr et refus de s’engager davantage tant qu’un danger important n’est pas exclu.
+
+## Critères de maintenance
 
 Toute nouvelle branche doit préciser :
 
 - les signes observables ;
-- la question posée ;
-- les réponses possibles, dont l’incertitude ;
-- la décision finale ;
+- les préconditions ;
+- les contre-indications ;
+- le score de priorité ;
+- les actions incompatibles ;
 - la checklist dans l’ordre ;
-- le critère indiquant que la situation est stabilisée ;
-- le moment de la prochaine réévaluation.
+- le critère de stabilisation ;
+- le moment de réévaluation.
+
+Aucune branche ne doit être portée dans le HTML sans réussir le test de cohérence de `coherence.md`.
