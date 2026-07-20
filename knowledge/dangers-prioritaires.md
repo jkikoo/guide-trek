@@ -1,143 +1,80 @@
 # Dangers prioritaires
 
-Ces branches interrompent la logique générale. L’objectif de l’étape ou du bivouac passe après la mise en sécurité.
+Ces dangers augmentent fortement la priorité, mais ils ne doivent pas effacer la phase du trek ni l’état réel de l’abri. Le moteur applique `coherence.md` avant d’afficher la checklist.
 
 ## Orage
 
-### Signes observables
+### Signes
 
-- tonnerre entendu ;
-- éclair visible ;
-- cheveux qui se dressent, bourdonnement ou picotements ;
-- nuage noir à développement vertical et rafales soudaines.
+Tonnerre, éclair, rafale brutale, cheveux qui se dressent, bourdonnement ou picotements.
 
-### Décision
+### Priorité
 
-Quitter immédiatement crête, sommet, col, plateau ouvert, berge, eau, arbre isolé, clôture et objet métallique long. Une tente, un auvent ou un surplomb rocheux ne constitue pas un abri sûr.
+1. Quitter immédiatement sommet, crête, col, plateau ouvert, eau, berge, arbre isolé et clôture.
+2. Rejoindre un bâtiment fermé ou un véhicule à toit rigide si cette option est rapidement accessible sans nouveau danger.
+3. À défaut, gagner la position la moins exposée disponible. Une tente réduit pluie et vent, mais ne constitue pas une protection contre la foudre.
 
-### Checklist
+### Contextes
 
-1. Interrompre l’ascension ou la traversée exposée.
-2. Descendre vers un relief plus bas sans courir sur terrain glissant.
-3. Espacer les membres du groupe.
-4. Rejoindre si possible un bâtiment fermé ou un véhicule à toit métallique.
-5. À défaut, rester loin de l’eau, des arbres isolés, des clôtures et des points dominants.
-6. Ne pas s’allonger au sol.
-7. Attendre 30 minutes après le dernier tonnerre avant de reprendre.
-8. Réévaluer ensuite terrain, heure, état du groupe et possibilité de retour.
+- **En marche** : interrompre toute progression vers un point haut, descendre vers un relief plus bas et espacer le groupe.
+- **Arrivé, tente non montée, pluie/vent** : après avoir quitté les zones dangereuses, choisir rapidement un site non inondable et non dominant, monter l’abri, protéger le couchage, se changer puis limiter les sorties.
+- **Camp installé mais dangereux** : déplacer le camp si l’eau, les pierres, un arbre ou un point dominant créent un danger supérieur.
+- **Abri sûr disponible** : y rester et ne reprendre l’activité extérieure exposée qu’après trente minutes sans tonnerre.
 
-### Incertitude
-
-Si l’on ne sait pas si le bruit est du tonnerre, considérer le signal comme réel jusqu’à vérification depuis un endroit moins exposé.
+La consigne des trente minutes est un **critère de reprise**, jamais une première action universelle.
 
 ## Hypothermie possible
 
-### Signes observables
+### Signes
 
-- frissons persistants ;
-- maladresse inhabituelle ;
-- difficulté à parler ;
-- confusion ;
-- somnolence ;
-- chutes répétées ;
-- comportement incohérent.
+Frissons persistants, épuisement, maladresse, parole inhabituelle, confusion, somnolence, chutes ou comportement incohérent.
 
-### Décision
+### Action
 
-Confusion, parole pâteuse, somnolence ou grande maladresse = urgence potentielle.
+1. Arrêter l’objectif et créer ou rejoindre un abri.
+2. Appeler les secours en cas de confusion, somnolence, parole pâteuse, grande maladresse, perte de connaissance ou aggravation.
+3. Retirer ou isoler les vêtements mouillés.
+4. Réchauffer en priorité le tronc, le cou et la tête avec du sec et de l’isolation.
+5. Donner une boisson chaude sucrée uniquement si la personne est pleinement consciente et avale normalement.
+6. Manipuler doucement et ne pas laisser seule.
 
-### Checklist
+Ne jamais proposer une longue progression pour « se réchauffer » à une personne confuse ou très maladroite.
 
-1. Arrêter la progression.
-2. Appeler les secours en cas de signes neurologiques ou d’aggravation.
-3. Mettre la personne à l’abri du vent, de la pluie et du sol froid.
-4. La manipuler doucement.
-5. Remplacer ou isoler les vêtements mouillés avec du sec.
-6. Réchauffer surtout le tronc, le cou et la tête.
-7. Donner une boisson chaude sucrée seulement si la personne est pleinement consciente et avale normalement.
-8. Ne pas laisser la personne seule.
-9. Ne pas reprendre l’objectif initial ; viser la sortie sûre ou attendre les secours.
+## Crue ou passage noyé
 
-### Incertitude
+1. Ne pas traverser.
+2. Quitter lit, ravine, cuvette et berge.
+3. Gagner un terrain plus haut par un passage stable.
+4. Chercher un pont, un détour ou faire demi-tour.
+5. Déplacer ou refuser tout bivouac menacé.
 
-Si l’on hésite entre fatigue et hypothermie, traiter d’abord comme un refroidissement : arrêt, abri, sec, chaleur, énergie, puis réévaluation rapide.
-
-## Crue, torrent ou passage noyé
-
-### Signes observables
-
-- niveau qui monte ;
-- eau brune ou chargée ;
-- courant plus rapide ;
-- bruit inhabituel ;
-- branches ou débris ;
-- passage habituel submergé ;
-- ravine qui commence à couler.
-
-### Décision
-
-Ne pas traverser. Quitter les zones basses.
-
-### Checklist
-
-1. Renoncer immédiatement à la traversée.
-2. S’éloigner du lit, de la ravine et de la berge.
-3. Gagner un terrain plus haut par un itinéraire stable.
-4. Ne pas tester la profondeur avec les pieds.
-5. Chercher un pont, un détour ou faire demi-tour.
-6. Ne pas installer ou maintenir un bivouac dans une cuvette, une ravine ou un lit sec.
-7. Réévaluer seulement après stabilisation réelle du niveau.
-
-### Incertitude
-
-Si l’on ne sait pas si le niveau monte, choisir un repère fixe et observer à distance. Si le doute subsiste, quitter la zone basse.
+Une tente ne justifie jamais de rester dans une zone où l’eau monte.
 
 ## Chutes de pierres ou pente instable
 
-### Signes observables
+1. Sortir de l’axe sans créer une exposition supérieure.
+2. Ne pas stationner au pied de la pente ou dans le couloir.
+3. Revenir au dernier point stable.
+4. Vérifier que tout le groupe est sorti.
+5. Changer d’itinéraire ou faire demi-tour.
 
-- pierres qui roulent spontanément ;
-- sol qui se dérobe ;
-- coulée de boue ;
-- talus qui s’effondre ;
-- craquements ;
-- ruissellement concentré sous une pente raide.
-
-### Décision
-
-Sortir de l’axe du danger et revenir au dernier point stable.
-
-### Checklist
-
-1. Ne pas stationner dans le couloir ou au pied de la pente.
-2. S’éloigner latéralement si cela peut être fait sans s’exposer davantage.
-3. Revenir au dernier point sûr.
-4. Vérifier que tout le groupe a quitté la zone.
-5. Ne pas traverser « un par un pour essayer » si les chutes sont actives.
-6. Choisir un autre itinéraire ou faire demi-tour.
+Ne jamais proposer de monter une tente dans l’axe d’une pente active.
 
 ## Blessure empêchant une marche sûre
 
-### Signes observables
-
-- impossibilité d’appui ;
-- douleur forte ou croissante ;
-- saignement important ;
-- traumatisme crânien ;
-- perte de connaissance ;
-- difficulté respiratoire ;
-- état général qui se dégrade.
-
-### Décision
-
-Ne pas forcer la progression. Protéger, alerter et stabiliser.
-
-### Checklist
-
-1. Mettre le groupe hors du danger immédiat sans déplacer inutilement la personne.
-2. Appeler les secours si la marche autonome n’est plus sûre ou si un signe grave est présent.
-3. Protéger de la pluie, du vent et du froid.
-4. Contrôler le saignement externe par compression adaptée.
+1. Écarter le danger immédiat sans déplacer inutilement la personne.
+2. Protéger de la pluie, du vent et du sol froid.
+3. Alerter les secours si la marche autonome n’est plus sûre ou en présence d’un signe grave.
+4. Contrôler un saignement externe par compression adaptée.
 5. Surveiller conscience, respiration et évolution.
-6. Préparer localisation, coordonnées, nature du terrain et état météo pour les secours.
-7. Ne pas laisser la personne seule.
+6. Préparer localisation, terrain, météo et état de la personne.
+
+## Test de cohérence
+
+Pour chaque danger, la première action doit :
+
+- être réalisable dans la phase actuelle ;
+- réduire le risque principal sans exposer davantage ;
+- tenir compte de l’existence ou non d’un abri ;
+- préserver immédiatement une personne mouillée ou qui se refroidit ;
+- distinguer action immédiate, attente et critère de reprise.
