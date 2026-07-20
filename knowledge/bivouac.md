@@ -1,96 +1,83 @@
 # Bivouac sous météo dégradée
 
-## Choisir l’emplacement
+## Règle principale
 
-Un emplacement n’est acceptable que si le groupe peut y rester sans créer un danger supérieur à celui de la marche.
+L’état de l’abri est un facteur de priorité majeur. Une personne arrivée au bivouac sans tente montée ne reçoit pas la même procédure qu’une personne déjà protégée.
 
-### Écarter immédiatement
+## Choisir l’emplacement en quelques secondes
+
+### Refuser immédiatement
 
 - ravine, lit sec, cuvette ou dépression ;
-- berge et proximité immédiate d’un torrent ;
+- berge, torrent ou zone où l’eau converge ;
 - pied de falaise, couloir d’éboulis ou pente qui purge ;
-- crête, col ou bosse directement exposée aux rafales ;
-- arbre mort, branche lourde ou arbre isolé en situation orageuse ;
-- sol déjà saturé ou parcouru par un écoulement.
+- crête, col, bosse ou plateau directement exposé ;
+- arbre mort, grosse branche ou arbre isolé ;
+- sol saturé, instable ou déjà parcouru par un écoulement.
 
 ### Rechercher
 
 - sol plat ou légèrement bombé ;
-- drainage naturel éloignant l’eau de la tente ;
-- protection relative contre le vent sans se placer sous un danger ;
-- place suffisante pour tendre correctement la tente et ses haubans ;
-- issue praticable vers un terrain plus sûr.
+- drainage qui éloigne l’eau ;
+- protection relative du vent sans danger supérieur ;
+- espace suffisant pour tendre et haubaner ;
+- possibilité de quitter le site si l’eau, le vent ou le terrain se dégradent.
 
-## Juste arrivé, rien n’est monté
+## Juste arrivé, tente non montée
 
-### Décision
+### Priorité
 
-Créer rapidement un abri fonctionnel sans mouiller le couchage.
+Si pluie, vent ou refroidissement sont présents et qu’aucun bâtiment ou véhicule sûr n’est accessible, créer rapidement un abri fonctionnel **après une vérification brève du site**.
 
-### Checklist
+### Checklist ordonnée
 
-1. Poser le sac sur une zone aussi sèche et stable que possible.
-2. Examiner le terrain autour de la tente, pas seulement l’emplacement exact.
-3. Garder duvet et vêtements de nuit dans leur protection étanche.
-4. Sortir uniquement la tente, les sardines et ce qui est nécessaire au montage.
-5. Orienter la partie la plus résistante de la tente face au vent dominant selon le modèle.
-6. Ancrer d’abord le côté exposé au vent.
-7. Tendre la toile sans déformer la structure.
-8. Vérifier que l’eau ne converge pas sous l’abri.
-9. Rentrer le sac et le matériel critique.
-10. Passer en couche sèche et chaude.
-11. Préparer frontale, téléphone, eau et chaussures pour une sortie nocturne.
-12. Réévaluer après 10 minutes de pluie ou à chaque hausse du vent.
+1. Quitter d’abord toute crête, berge, ravine, pente instable ou zone de chute de pierres.
+2. Examiner le site et les écoulements autour pendant quelques secondes ; ne pas chercher l’emplacement parfait au prix d’une longue exposition.
+3. Poser le sac sur une zone stable et garder duvet, vêtements de nuit et électronique dans leurs protections étanches.
+4. Sortir uniquement la tente et le matériel de montage.
+5. Ancrer d’abord le côté exposé au vent et maintenir chaque élément pour qu’il ne s’envole pas.
+6. Fermer l’abri et vérifier que l’eau ne converge pas dessous.
+7. Rentrer le sac et le matériel critique.
+8. Enlever ou isoler les vêtements mouillés ; enfiler une couche sèche et chaude.
+9. Placer les vêtements mouillés dans un sac étanche ou séparé du couchage. Ne pas les étaler dans la tente si cela augmente fortement l’humidité ou mouille le duvet.
+10. Sortir le duvet seulement quand l’intérieur est protégé.
+11. Garder frontale, veste, chaussures, téléphone et eau accessibles.
+12. Réévaluer le drainage, les ancrages et l’état du groupe après dix minutes ou dès toute aggravation.
 
-Situation stabilisée : la tente est ancrée, le couchage est sec, le groupe est chaud et un repli reste possible.
+### Orage dans ce contexte
+
+Une tente ne protège pas de la foudre. Toutefois, « attendre 30 minutes » n’est pas la première action si le groupe est sans protection sous pluie, vent et froid. L’ordre cohérent est :
+
+1. quitter un point dominant, l’eau et les objets isolés ;
+2. rejoindre un bâtiment fermé ou un véhicule si cela est accessible sans traversée dangereuse ;
+3. sinon choisir le site le moins exposé disponible et monter l’abri rapidement pour réduire pluie, vent et refroidissement ;
+4. rester conscient que le risque de foudre persiste ; limiter les sorties et éviter l’eau, les clôtures, les points hauts et les arbres isolés ;
+5. ne reprendre une progression exposée qu’après trente minutes sans tonnerre.
 
 ## Bivouac déjà installé
 
-### Checklist pluie
+1. Vérifier les points bas, l’écoulement et la montée de l’eau.
+2. Déplacer immédiatement le camp si une crue, une pente, un arbre ou des pierres le menacent.
+3. Retendre les haubans et contrôler chaque sardine.
+4. Éloigner duvet et vêtements secs des parois mouillées.
+5. Ventiler sans laisser entrer la pluie.
+6. Isoler les vêtements mouillés du couchage.
+7. Garder chaussures, frontale, veste et téléphone accessibles.
+8. Préparer mentalement l’itinéraire de repli.
 
-1. Vérifier les points bas autour de la tente.
-2. Déplacer immédiatement le camp si l’eau monte ou converge vers l’abri.
-3. Retendre les haubans détendus par l’humidité.
-4. Vérifier chaque sardine, surtout au vent.
-5. Éloigner le duvet des parois mouillées.
-6. Ventiler suffisamment pour limiter la condensation sans laisser entrer la pluie.
-7. Séparer vêtements mouillés et couchage sec.
-8. Conserver chaussures, frontale et veste accessibles.
+## Démontage
 
-### Checklist vent
+1. S’habiller et préparer navigation, eau et nourriture avant de toucher à l’abri.
+2. Ranger duvet et couches sèches en premier dans leurs sacs étanches.
+3. Conserver la protection extérieure aussi longtemps que possible.
+4. Démonter les ancrages au vent en dernier.
+5. Interrompre le démontage et rétablir l’abri si l’orage, la crue, le vent ou l’état humain s’aggravent.
 
-1. Contrôler l’orientation de la tente.
-2. Doubler ou renforcer les ancrages essentiels avec des pierres stables si nécessaire.
-3. Réduire les surfaces flottantes et fermer correctement les ouvertures.
-4. Ranger tout objet pouvant s’envoler.
-5. Ne pas sortir inutilement sous des rafales violentes.
-6. Si la structure se déforme fortement, préparer un déplacement vers un emplacement moins exposé.
+## Cohérence
 
-### Critères de déplacement du camp
+- Ne jamais proposer « rester dans la tente » si le camp est menacé par l’eau, les pierres ou un arbre.
+- Ne jamais proposer « ouvrir le duvet » avant fermeture de l’abri sous la pluie.
+- Ne jamais proposer « attendre » sans préciser où, dans quel état de protection et jusqu’à quel critère.
+- Le montage est prioritaire quand il réduit immédiatement plusieurs risques et qu’aucun danger supérieur n’interdit le site.
 
-Déplacer malgré l’inconfort si :
-
-- l’eau monte ou passe sous la tente ;
-- une pente ou un torrent menace l’emplacement ;
-- les rafales arrachent les ancrages de manière répétée ;
-- un arbre, une branche ou des pierres menacent le camp ;
-- l’abri ne permet plus de maintenir le groupe au chaud.
-
-## Démontage sous la pluie
-
-### Décision
-
-Ne pas sacrifier l’abri avant que le groupe soit prêt à partir.
-
-### Checklist
-
-1. S’habiller entièrement pour la marche avant de démonter.
-2. Ranger duvet et vêtements secs en premier dans leurs sacs étanches.
-3. Préparer nourriture, eau, navigation et veste accessibles.
-4. Mettre le sac à dos à l’abri ou sous son liner.
-5. Démonter l’intérieur tout en conservant la toile extérieure si la tente le permet.
-6. Démonter les ancrages sous le vent en dernier.
-7. Vérifier qu’aucun objet ne reste sur place.
-8. Partir seulement lorsque la direction, l’échappatoire et le prochain point de réévaluation sont clairs.
-
-Si le vent, l’orage, la crue ou l’état du groupe s’aggravent pendant le démontage, interrompre l’opération et rétablir un abri.
+Situation stabilisée : abri ancré, eau éloignée, couchage sec, personne réchauffée, matériel critique accessible et repli possible.
