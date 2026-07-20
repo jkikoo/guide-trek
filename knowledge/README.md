@@ -1,55 +1,58 @@
-# Base de connaissance — Assistant de décision trek
+# Base de connaissance — Guide trek
 
-Ce dossier est la **source de vérité éditoriale**. `index.html` ne doit afficher qu’une logique validée ici.
+Ce dossier est la **source de vérité éditoriale** du guide. `index.html` est l’interface d’exécution et ne doit contenir aucune recommandation qui contredise les fichiers Markdown.
 
-## Finalité
+## Architecture
 
-L’utilisateur peut être mouillé, fatigué, inquiet ou pressé. L’assistant doit produire une conduite faisable immédiatement, dans le bon ordre, jusqu’à une situation stable.
+### Doctrine commune
 
-Il doit toujours :
+- `architecture-contexte.md` : contexte stratégique obligatoire avant toute décision.
+- `coherence.md` : scores, préconditions, exclusions et ordre des actions.
+- `glossaire.md` : vocabulaire affiché dans l’interface.
 
-1. identifier la phase du trek et l’état réel de l’abri ;
-2. recueillir les dangers et les faits observables ;
-3. générer plusieurs actions candidates ;
-4. les classer avec le barème de `coherence.md` ;
-5. supprimer toute action incompatible ou dont les préconditions manquent ;
-6. afficher une décision unique et une checklist ordonnée ;
-7. proposer « Je ne sais pas / aucune proposition ne convient ».
+### Sections du guide
 
-## Ordre opérationnel
+- `pluie/` : pluie, vent, orage et météo dégradée.
+- `blessure/` : traumatisme, douleur et incapacité de marche.
+- `sante/` : malaise, fatigue, froid, chaleur et sensation anormale.
+- `navigation/` : perte de trace, position incertaine et errance.
+- `materiel/` : matériel endommagé, perdu ou devenu inutilisable.
+- `secours/` : décision d’appel, informations à transmettre et attente.
 
-1. Écarter un danger vital actif.
-2. Quitter une exposition immédiate.
-3. Créer ou rejoindre une protection viable.
-4. Préserver la personne, le duvet, la couche sèche, la navigation et la communication.
-5. Stabiliser le camp ou choisir un repli.
-6. Définir quand et selon quels critères réévaluer.
+D’autres sections pourront être ajoutées : eau et ravitaillement, neige, animaux, feu, traversée de torrent, choix du bivouac et gestion du groupe.
 
-Un danger prioritaire ne doit pas effacer le contexte. Exemple : orage + arrivée au bivouac + tente non montée + pluie et vent ne signifie pas « attendre ». La décision cohérente est : évaluer en quelques secondes un emplacement non inondable et non exposé, monter l’abri sans délai, protéger le couchage, entrer, se changer, isoler les vêtements mouillés, puis attendre avant toute reprise exposée.
+## Principe directeur
 
-## Fichiers
+Le premier écran choisit le **problème à traiter**. Une fois dans une section, le moteur doit toujours déterminer le contexte stratégique avant de proposer une conduite :
 
-- `coherence.md` : barème, préconditions, incompatibilités et test de validation.
-- `pluie.md` : décisions de progression et de repli sous pluie.
-- `dangers-prioritaires.md` : orage, hypothermie, crue, terrain instable et blessure.
-- `bivouac.md` : choix du site, montage, camp installé et démontage.
-- `glossaire.md` : vocabulaire concret de l’interface.
+1. continuer l’étape ;
+2. faire demi-tour ;
+3. rejoindre une échappatoire ;
+4. presque atteindre le bivouac ;
+5. être sur la zone de bivouac sans tente montée ;
+6. avoir un bivouac installé ;
+7. démonter le bivouac ;
+8. ne pas savoir.
 
-## Règle d’incertitude
+Cette information commande la cohérence de toutes les propositions suivantes.
 
-L’incertitude n’autorise jamais une réponse arbitraire. Elle déclenche une option prudente et réversible : arrêt sur un point stable, vérification de faits simples, confirmation de la position, recherche du dernier point sûr et refus de s’engager davantage tant qu’un danger important n’est pas exclu.
+## Règles générales
 
-## Critères de maintenance
+- Une action locale de survie peut interrompre l’objectif, mais elle doit rester adaptée au lieu et à la phase.
+- Le bivouac prévu n’est jamais un objectif à atteindre à tout prix.
+- Une tente protège de la pluie et du vent, mais ne transforme pas un emplacement dangereux en emplacement sûr.
+- Une réponse « je ne sais pas » doit mener à des faits observables et à l’option la plus réversible.
+- Toute checklist doit se terminer par un critère de stabilisation et un point de réévaluation.
+
+## Maintenance
 
 Toute nouvelle branche doit préciser :
 
+- le contexte stratégique compatible ;
 - les signes observables ;
 - les préconditions ;
-- les contre-indications ;
-- le score de priorité ;
-- les actions incompatibles ;
-- la checklist dans l’ordre ;
+- les exclusions et contradictions ;
+- l’action numéro un ;
+- la checklist ordonnée ;
 - le critère de stabilisation ;
-- le moment de réévaluation.
-
-Aucune branche ne doit être portée dans le HTML sans réussir le test de cohérence de `coherence.md`.
+- le prochain point de réévaluation.
