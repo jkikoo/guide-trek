@@ -1,0 +1,22 @@
+# Section Perdu ou position incertaine
+
+## But
+
+Éviter qu’une incertitude de navigation devienne une errance, une chute ou une nuit improvisée.
+
+## Arbre proposé
+
+1. **Contexte stratégique obligatoire** : continuer, revenir, échappatoire, presque au bivouac, zone de bivouac ou camp.
+2. **Arrêt immédiat sur un point sûr** : ne pas continuer à marcher en consultant le téléphone sur un passage exposé.
+3. **Dernier point certain** : quand et où la position était-elle confirmée pour la dernière fois ?
+4. **Recoupement** : carte, trace GPS, relief, direction de pente, cours d’eau, altitude, balisage et heure.
+5. **Marge** : lumière restante, batterie, météo, chaleur, eau et capacité physique.
+6. **Décision** :
+   - revenir au dernier point certain si le retour est connu et sûr ;
+   - rejoindre une échappatoire uniquement si son accès est confirmé ;
+   - rester sur place et appeler de l’aide si tout déplacement ajoute un risque important ;
+   - établir un bivouac prudent si la nuit approche et qu’un site sûr est déjà disponible.
+
+## Cohérence
+
+Ne jamais proposer de couper hors sentier « vers la trace » sans vérifier pente, barres rocheuses, torrents et végétation. Le bivouac prévu n’est pas une preuve que la direction supposée est correcte.
