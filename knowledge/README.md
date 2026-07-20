@@ -6,9 +6,10 @@ Ce dossier est la **source de vérité éditoriale** du guide. `index.html` est 
 
 ### Doctrine commune
 
-- `architecture-contexte.md` : contexte stratégique obligatoire avant toute décision.
-- `coherence.md` : scores, préconditions, exclusions et ordre des actions.
-- `glossaire.md` : vocabulaire affiché dans l’interface.
+- `architecture/README.md` : index des règles transversales.
+- `architecture/contexte.md` : contexte stratégique obligatoire avant toute décision.
+- `architecture/coherence.md` : scores, préconditions, exclusions et ordre des actions.
+- `architecture/glossaire.md` : vocabulaire affiché dans l’interface.
 
 ### Sections du guide
 
@@ -19,7 +20,7 @@ Ce dossier est la **source de vérité éditoriale** du guide. `index.html` est 
 - `materiel/` : matériel endommagé, perdu ou devenu inutilisable.
 - `secours/` : décision d’appel, informations à transmettre et attente.
 
-D’autres sections pourront être ajoutées : eau et ravitaillement, neige, animaux, feu, traversée de torrent, choix du bivouac et gestion du groupe.
+D’autres sections pourront être ajoutées : eau et ravitaillement, neige, animaux, feu, traversée de torrent, choix général du bivouac et gestion du groupe.
 
 ## Principe directeur
 
@@ -56,3 +57,5 @@ Toute nouvelle branche doit préciser :
 - la checklist ordonnée ;
 - le critère de stabilisation ;
 - le prochain point de réévaluation.
+
+À la racine de `knowledge/`, seul ce fichier d’index doit rester. Les contenus éditoriaux appartiennent aux sous-dossiers spécialisés.
