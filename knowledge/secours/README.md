@@ -20,3 +20,18 @@ Ne pas retarder un appel nécessaire pour terminer le montage parfait du camp ou
 Ne pas présenter l’appel aux secours comme une sanction ou comme une réponse automatique. C’est une option de sécurité quand le groupe ne peut plus gérer le risque par ses propres moyens, ou quand un signe grave dépasse l’autonomie normale d’un trek.
 
 Le HTML devra afficher les numéros adaptés au pays seulement à partir d’une source fiable et maintenue ; il ne doit pas inventer de numéro selon une localisation supposée.
+
+## Intégration HTML
+
+Le POC intégré distingue :
+
+- signe vital ou traumatique ;
+- groupe bloqué ;
+- marche autonome impossible ;
+- aggravation ;
+- personne manquante ;
+- position connue ;
+- batterie ou communication ;
+- protection d’attente.
+
+L’appel aux secours est prioritaire si l’autonomie réelle est dépassée. Hors urgence vitale, l’interface peut d’abord demander de fixer la position pour améliorer l’aide, sans retarder un appel nécessaire.

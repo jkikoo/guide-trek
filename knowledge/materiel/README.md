@@ -29,3 +29,18 @@ La perte de la tente au milieu d’un trek ne conclut pas automatiquement au dem
 - état du groupe et capacité à passer une nuit sans tente.
 
 La bonne recommandation peut être de continuer vers un abri confirmé, de rejoindre une échappatoire, de bivouaquer avec une protection imparfaite, de partager l’abri du groupe ou de faire demi-tour. Aucune de ces options n’est automatique.
+
+## Intégration HTML
+
+Le POC intégré traite séparément :
+
+- abri ou couchage perdu ;
+- chaussure ou semelle défaillante ;
+- navigation ou batterie inutilisable ;
+- nourriture très insuffisante sur durée longue ;
+- redondance ;
+- réparation possible ;
+- nuit, météo ou terrain engagé ;
+- sortie proche.
+
+Une fonction critique sans redondance déclenche une réduction forte de l’objectif. Si une sortie proche et non exposée existe, l’avis peut proposer de la rejoindre avant que la panne empire.

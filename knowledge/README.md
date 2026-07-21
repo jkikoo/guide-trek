@@ -20,8 +20,9 @@ Ce dossier est la **source de vérité éditoriale** du guide. `index.html` est 
 - `sante/` : malaise, fatigue, froid, chaleur et sensation anormale.
 - `materiel/` : matériel endommagé, perdu ou devenu inutilisable.
 - `secours/` : décision d’appel, informations à transmettre et attente.
+- `eau/` : manque d’eau, source douteuse, traitement et franchissement.
 
-D’autres sections pourront être ajoutées : eau et ravitaillement, neige, feu, traversée de torrent et gestion du groupe.
+D’autres sections pourront être ajoutées : neige, feu et gestion du groupe.
 
 ## Principe directeur
 
