@@ -7,6 +7,8 @@ Avant toute recommandation, lire `../architecture/contexte.md`, puis appliquer `
 ## Fichiers
 
 - `pluie.md` : logique de décision sous pluie et météo dégradée.
+- `questionnaire.md` : questions météo contextuelles et formulations à éviter.
+- `bivouac.md` : arrivée, montage, camp installé et démontage sous météo dégradée.
 - `dangers.md` : orage, crue, hypothermie et terrain instable.
 
-Les futurs fichiers `vent.md`, `brouillard.md`, `froid.md`, `chaleur.md` et `neige.md` compléteront cette section.
+De futurs fichiers dédiés au vent, au brouillard, au froid, à la chaleur et à la neige compléteront cette section.

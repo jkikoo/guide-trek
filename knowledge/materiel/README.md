@@ -19,3 +19,13 @@ Déterminer si la panne est gênante, compromet l’étape ou supprime une capac
 ## Cohérence
 
 Une tente inutilisable n’a pas le même poids au début d’une journée sèche près du départ et à la tombée de la nuit sous pluie froide. Un téléphone en panne n’est pas automatiquement une urgence si carte, autonomie de navigation et itinéraire simple restent disponibles.
+
+La perte de la tente au milieu d’un trek ne conclut pas automatiquement au demi-tour. Le retour peut être long, exposé, transformé par la météo ou plus difficile que la suite. Comparer au minimum :
+
+- distance et terrain vers le retour ;
+- distance et terrain vers une cabane, un refuge, une vallée ou une route ;
+- météo et heure restantes ;
+- abris naturels ou solutions de fortune réalistes ;
+- état du groupe et capacité à passer une nuit sans tente.
+
+La bonne recommandation peut être de continuer vers un abri confirmé, de rejoindre une échappatoire, de bivouaquer avec une protection imparfaite, de partager l’abri du groupe ou de faire demi-tour. Aucune de ces options n’est automatique.

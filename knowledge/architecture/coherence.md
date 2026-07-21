@@ -1,12 +1,14 @@
-# Moteur de cohérence
+# Cohérence des avis terrain
 
-Ce fichier définit la règle qui précède toute recommandation affichée dans `index.html`.
+Ce fichier définit la règle de cohérence qui précède toute recommandation affichée dans `index.html`. Cette règle reste interne à la doctrine : l’interface ne doit pas exposer les scores, les filtres ou la mécanique de choix.
 
 ## Principe
 
 L’assistant ne choisit pas une procédure uniquement à partir du danger le plus spectaculaire. Il construit d’abord l’**état réel** : phase du trek, abri disponible, terrain, état humain, météo, matériel sec et options de repli.
 
 Chaque action candidate reçoit ensuite un score, puis passe des filtres de cohérence.
+
+Le résultat attendu n’est pas toujours une solution sûre ou confortable. Il peut s’agir de l’option la moins mauvaise, accompagnée des précautions qui réduisent le risque sans prétendre l’annuler.
 
 ## Barème
 
@@ -70,5 +72,7 @@ Avant validation d’une branche, répondre oui aux questions suivantes :
 5. Toute attente possède-t-elle un lieu et une condition de sécurité ?
 6. Toute reprise possède-t-elle des critères explicites ?
 7. L’option « je ne sais pas » conduit-elle à une action prudente et réversible ?
+8. Si aucune bonne solution n’existe, l’avis nomme-t-il l’option la plus adaptée et les précautions associées ?
+9. Le texte visible évite-t-il d’expliquer la mécanique interne ou d’influencer vers la poursuite ?
 
 Une branche qui échoue à un seul de ces tests ne doit pas être intégrée au HTML.

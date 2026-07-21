@@ -10,17 +10,18 @@ Ce dossier est la **source de vérité éditoriale** du guide. `index.html` est 
 - `architecture/contexte.md` : contexte stratégique obligatoire avant toute décision.
 - `architecture/coherence.md` : scores, préconditions, exclusions et ordre des actions.
 - `architecture/glossaire.md` : vocabulaire affiché dans l’interface.
+- `architecture/modele-poc.md` : méthode de reproduction du POC dans les autres domaines.
 
 ### Sections du guide
 
-- `pluie/` : pluie, vent, orage et météo dégradée.
-- `blessure/` : traumatisme, douleur et incapacité de marche.
-- `sante/` : malaise, fatigue, froid, chaleur et sensation anormale.
+- `meteo/` : pluie, vent, orage, brouillard, froid, chaleur et météo dégradée.
+- `bivouac/` : doctrine générale du bivouac.
 - `navigation/` : perte de trace, position incertaine et errance.
+- `sante/` : malaise, fatigue, froid, chaleur et sensation anormale.
 - `materiel/` : matériel endommagé, perdu ou devenu inutilisable.
 - `secours/` : décision d’appel, informations à transmettre et attente.
 
-D’autres sections pourront être ajoutées : eau et ravitaillement, neige, animaux, feu, traversée de torrent, choix général du bivouac et gestion du groupe.
+D’autres sections pourront être ajoutées : eau et ravitaillement, neige, feu, traversée de torrent et gestion du groupe.
 
 ## Principe directeur
 
@@ -44,6 +45,10 @@ Cette information commande la cohérence de toutes les propositions suivantes.
 - Une tente protège de la pluie et du vent, mais ne transforme pas un emplacement dangereux en emplacement sûr.
 - Une réponse « je ne sais pas » doit mener à des faits observables et à l’option la plus réversible.
 - Toute checklist doit se terminer par un critère de stabilisation et un point de réévaluation.
+- Le guide ne promet pas toujours une bonne solution : il peut proposer l’option la moins mauvaise, avec les précautions nécessaires.
+- L’interface utilisateur doit afficher un avis terrain, pas le fonctionnement interne de la doctrine.
+- Le demi-tour, les secours, l’échappatoire ou le bivouac ne sont jamais des réponses automatiques : chaque option doit être comparée au terrain et à l’état réel du groupe.
+- Toute nouvelle thématique doit être confrontée à des témoignages ou rapports terrain avant d’être considérée comme validée.
 
 ## Maintenance
 
