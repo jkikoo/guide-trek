@@ -10,6 +10,8 @@ Le manque d’eau est un problème de temps, de chaleur, d’effort et de lucidi
 
 Boire davantage n’est pas toujours la bonne réponse : maux de tête, nausée, confusion et grande quantité d’eau sans sel ni nourriture peuvent évoquer un déséquilibre en sels. La recommandation doit éviter de confondre automatiquement malaise, déshydratation et hyponatrémie possible.
 
+Une eau visible n’est pas automatiquement une ressource fiable. Eau stagnante, algues, odeur, carcasse, ruissellement douteux ou contamination évidente imposent un arbitrage : chercher mieux, traiter si possible, raccourcir, ou utiliser comme dernier recours si le risque immédiat de chaleur et de rupture d’eau devient supérieur.
+
 Un torrent ou une rivière rapide n’est pas un obstacle ordinaire. Une traversée forcée peut devenir plus dangereuse que le détour, l’attente ou l’appel.
 
 ## Questions clés
@@ -21,6 +23,7 @@ Un torrent ou une rivière rapide n’est pas un obstacle ordinaire. Une travers
 - dernier point d’eau connu atteignable par retour praticable ;
 - section sèche longue avant engagement ;
 - source visible ou seulement supposée ;
+- eau stagnante, odorante, algues, carcasse ou contamination visible ;
 - moyen de traitement disponible ;
 - sortie, refuge, aide ou retour confirmé ;
 - franchissement d’eau à venir ou en cours.
@@ -34,6 +37,8 @@ Un torrent ou une rivière rapide n’est pas un obstacle ordinaire. Une travers
 ### Rejoindre une source
 
 Crédible seulement si la source est localisée, proche et accessible sans terrain supérieur. Si l’eau est douteuse, traiter si possible. Sans traitement, comparer le risque digestif futur au risque immédiat de chaleur ou d’épuisement.
+
+Une eau visiblement contaminée doit rester une option dégradée. Elle ne doit pas être comptée comme une source normale pour décider d’une section longue, sauf si le groupe est déjà dans un arbitrage de survie immédiate.
 
 ### Revenir au dernier point d’eau
 
@@ -61,6 +66,7 @@ Valable seulement avec ombre, protection et raison concrète d’attendre : bais
 - laisser croire que « pas d’eau devant » équivaut seulement à « il reste peu d’eau » ;
 - entrer dans une section sèche longue sans recalculer la capacité réelle ;
 - dépendre d’une cache d’eau non garantie ;
+- compter une eau stagnante, odorante ou visiblement contaminée comme une source fiable ;
 - proposer de boire toujours plus malgré nausée, confusion et absence de sel ;
 - proposer de traverser un torrent trouble ou montant sans alternative évaluée ;
 - séparer le groupe sans point fixe, horaire et moyen de communication ;
@@ -81,6 +87,7 @@ Le POC intégré distingue :
 - chaleur et signes humains ;
 - suspicion de trop boire sans sel ;
 - source, neige ou eau visible ;
+- eau stagnante, algues, odeur, carcasse ou contamination visible ;
 - traitement disponible ;
 - torrent ou rivière à franchir ;
 - pont, détour ou attente hors d’eau ;
