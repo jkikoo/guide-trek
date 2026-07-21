@@ -10,6 +10,9 @@ Ces scénarios servent à auditer `index.html` après extension des domaines hor
 | En cours d’étape | `safe + last + return` | revenir au dernier point certain | couper hors sentier | le retour connu est plus fort qu’une intuition |
 | Inconnu | `separated` | stabiliser le groupe et organiser recherche/aide | disperser tout le monde | séparation aggrave navigation et secours |
 | En cours d’étape | `gps + trail` sans danger | repartir seulement sur trajet recoupé | suivre une seule indication | deux indices minimum réduisent le faux positif |
+| En cours d’étape | `safe + conflict` | reprendre les preuves avant toute direction | choisir la trace GPS par défaut | indices contradictoires rendent la décision fragile |
+| En cours d’étape | `safe + offtrail` | revenir au dernier point certain ou recouper | descendre hors sentier vers une intuition | hors trace involontaire devient vite irréversible |
+| Retour | `safe + blockedTrail + return` | retour connu ou détour confirmé | contourner l’obstacle hors trace | sentier barré ne valide pas l’improvisation |
 
 ## Santé
 
@@ -19,6 +22,7 @@ Ces scénarios servent à auditer `index.html` après extension des domaines hor
 | En cours d’étape | `altitude` sans `better` | ne pas monter plus haut | forcer le col | l’altitude se traite souvent par arrêt/descente |
 | Retour | `better` | option facile et surveillance | objectif ambitieux | amélioration n’est pas guérison |
 | En cours d’étape | `vomit` | arrêt, protection, option médicale | longue marche normale | impossibilité de boire réduit l’autonomie |
+| En cours d’étape | `panic` sans `better` | réduire pression, stabiliser, options courtes | décision engagée immédiate | jugement altéré fausse l’évaluation du risque |
 
 ## Blessure
 
@@ -27,6 +31,7 @@ Ces scénarios servent à auditer `index.html` après extension des domaines hor
 | En cours d’étape | `spine` | limiter mouvements et appeler | évacuation improvisée | risque rachis |
 | Échappatoire | `walk + help + shortOption` | sortie assistée si non exposée | secours automatiques ou poursuite | aide proche peut être meilleure |
 | En cours d’étape | `walk + exposed` | ne pas forcer la marche | tester encore plusieurs kilomètres | chute secondaire probable |
+| En cours d’étape | `blister` | traiter le pied et réévaluer vite | attendre que ça passe en marchant | ampoule peut changer l’appui et l’allure |
 
 ## Matériel
 
@@ -36,6 +41,7 @@ Ces scénarios servent à auditer `index.html` après extension des domaines hor
 | En cours d’étape | `nav` sans `backup` | stopper l’errance | continuer sur intuition | panne de navigation devient risque terrain |
 | En cours d’étape | `boot + exposed` | réparer ou sortir du passage | poursuivre passage engagé | chaussure = appui et sécurité |
 | En cours d’étape | `critical + backup` | continuer seulement après vérification | ignorer la panne | redondance doit être réelle |
+| En cours d’étape | `light + dark` sans `backup` | stopper ou réduire avant pénombre | finir à la lampe du téléphone | éclairage fixe la limite réelle de l’étape |
 
 ## Bivouac
 
@@ -45,6 +51,8 @@ Ces scénarios servent à auditer `index.html` après extension des domaines hor
 | Sur zone | `drain + shelter + water` | installer sobre et surveillé | camp confortable sans repli | météo et terrain restent vivants |
 | Démontage | pas `water` | ne pas démonter | perdre l’abri avant préparation | départ non prêt |
 | Camp | `threat` | déplacer ou renforcer | rester par inertie | camp déjà monté peut devenir mauvais |
+| Sur zone | `animalSigns` sans `foodSecure` | refuser le couchage avec odeurs non sécurisées | dormir avec nourriture dans l’abri | nourriture et déchets changent le risque du site |
+| Sur zone | `animalSigns + foodSecure` | sécuriser les odeurs avant couchage | monter le camp puis gérer plus tard | ordre des priorités important |
 
 ## Secours
 
@@ -54,6 +62,8 @@ Ces scénarios servent à auditer `index.html` après extension des domaines hor
 | En cours d’étape | `walk` | aide si marche sûre impossible | évacuation improvisée exposée | éviter accident secondaire |
 | Camp | `position` sans gravité | préparer infos et surveiller | appeler par automatisme | appel utile si autonomie dépassée |
 | Inconnu | pas `position` | fixer la position si possible | appel vague si pas vital | localisation améliore l’aide |
+| Inconnu | `life + messenger` | activer balise ou messagerie autonome | attendre le réseau mobile | moyen d’alerte disponible malgré absence réseau |
+| En cours d’étape | `noSignal` sans `messenger` | préparer l’alerte sans disperser | envoyer plusieurs personnes chercher du réseau | éviter une deuxième urgence |
 
 ## Eau
 
@@ -66,6 +76,8 @@ Ces scénarios servent à auditer `index.html` après extension des domaines hor
 | En cours d’étape | `noSource` | ne pas s’engager sans plan d’eau | continuer car il reste un peu d’eau | absence de prochain point fiable |
 | En cours d’étape | `noSource + lastWater` | revenir au dernier point d’eau si retour simple | dépendre d’une cache ou source supposée | mieux vaut corriger avant rupture |
 | En cours d’étape | `dryStretch` | recalculer avant section sèche | entrer dans la section par inertie | longue section sèche doit être assumée |
+| En cours d’étape | `source + badWater` | considérer l’eau comme dernier recours ou traiter | la compter comme source fiable | eau visible n’est pas eau sûre |
+| En cours d’étape | `none + heat + source + badWater` sans `treat` | arbitrer le moindre risque et réduire l’effort | refuser toute eau ou boire normalement | parfois aucune option n’est idéale |
 
 ## Critères d’audit vétéran
 

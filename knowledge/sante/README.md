@@ -22,6 +22,8 @@ Ne jamais attribuer automatiquement un comportement anormal à la fatigue. Ne pa
 
 Être malade ne signifie pas automatiquement appeler les secours. Un malaise stable, compréhensible et réversible peut relever d’un arrêt, d’une protection météo, d’hydratation, de nourriture, d’une surveillance courte, puis d’un retour ou d’une échappatoire prudente. L’appel devient prioritaire en cas de signe grave, aggravation, isolement, incapacité de marche sûre, impossibilité de boire, confusion ou absence d’option autonome.
 
+Panique, anxiété forte ou jugement inhabituel doivent être traités comme un facteur de sécurité, même sans signe médical évident. Le premier objectif est de réduire la pression : arrêt stable, chaleur, eau, nourriture, tâches simples, puis choix entre options courtes et vérifiables. Une décision engagée prise pendant la panique est rarement fiable.
+
 ## Blessure, douleur ou traumatisme
 
 ### But
@@ -44,6 +46,8 @@ Décider s’il faut continuer prudemment, revenir, rejoindre une sortie, immobi
 
 Ne jamais proposer de « tester encore quelques kilomètres » en cas d’impossibilité d’appui, confusion, douleur croissante ou terrain exposé. Ne jamais déplacer inutilement une personne potentiellement atteinte au rachis, sauf danger immédiat du lieu.
 
+Une ampoule ou un frottement n’est pas un détail si l’appui change. Le traitement immédiat évite de transformer une gêne simple en boiterie, chute, retard de groupe ou nuit non prévue.
+
 ## Intégration HTML
 
 Le POC intégré sépare :
@@ -54,8 +58,11 @@ Le POC intégré sépare :
 - vomissements répétés ou impossibilité de boire ;
 - froid ;
 - chaleur et troubles liés aux sels ;
+- panique, anxiété forte ou jugement inhabituel ;
 - altitude ;
 - amélioration durable ;
 - terrain engagé.
+
+Pour les blessures, le POC distingue aussi l’ampoule ou douleur de pied qui modifie l’appui, afin de corriger tôt plutôt que d’attendre l’incapacité de marche.
 
 L’objectif est d’éviter deux erreurs : appeler automatiquement pour tout malaise, ou banaliser une situation qui dépasse une fatigue normale.
