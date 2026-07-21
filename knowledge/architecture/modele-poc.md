@@ -100,6 +100,39 @@ Préférer :
 - « Prends l’option confirmée la moins exposée » ;
 - « Stabilise avant tout choix d’itinéraire ».
 
+## Guidage pas à pas dans les résultats
+
+Une recommandation ne doit pas se limiter à une phrase d’avis et une checklist sèche. L’utilisateur consulte souvent l’outil parce qu’il est fatigué, mouillé, inquiet, pressé ou moins capable de réfléchir clairement.
+
+Chaque résultat affiché doit donc contenir trois niveaux :
+
+1. **Avis terrain** : ce qui paraît le plus adapté maintenant.
+2. **Encarts courts** : comment exécuter les premières actions sans se tromper.
+3. **Checklist** : gestes ordonnés à cocher.
+
+Les encarts doivent rester très courts. Ils ne remplacent pas une formation et ne doivent pas devenir un manuel. Ils servent à guider l’action immédiate :
+
+- quoi arrêter ou ralentir ;
+- quoi observer avant de bouger ;
+- quoi vérifier sur la personne, le terrain ou le matériel ;
+- comment éviter l’erreur classique du domaine ;
+- quand réévaluer.
+
+Format recommandé :
+
+- **D’abord** ou **Avant de bouger** : action mentale et physique immédiate.
+- **À observer** ou **À vérifier** : critères simples que l’utilisateur peut constater.
+- **Geste pratique** ou **Point de contrôle** : mini-tutoriel de quelques mots pour appliquer correctement la checklist.
+
+Les encarts ne doivent pas exposer le fonctionnement interne de la décision. Ils doivent parler comme un encadrant à côté du groupe : concret, calme, court.
+
+Exemples :
+
+- navigation : « Ne marche pas pendant que tu cherches. Compare au moins deux indices avant de repartir. »
+- eau : « Une eau visible mais douteuse reste une option dégradée, pas une réserve normale. »
+- secours : « Position, nombre de personnes, état, évolution, météo, terrain, accès possible, batterie et protection d’attente. »
+- bivouac : « Garde chaussures, lampe, eau, veste et téléphone accessibles. »
+
 ## Tests de scénario
 
 Chaque domaine doit définir des scénarios avant intégration dans le HTML.
