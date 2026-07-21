@@ -43,3 +43,19 @@ Décider s’il faut continuer prudemment, revenir, rejoindre une sortie, immobi
 ### Cohérence
 
 Ne jamais proposer de « tester encore quelques kilomètres » en cas d’impossibilité d’appui, confusion, douleur croissante ou terrain exposé. Ne jamais déplacer inutilement une personne potentiellement atteinte au rachis, sauf danger immédiat du lieu.
+
+## Intégration HTML
+
+Le POC intégré sépare :
+
+- signes graves ;
+- réaction allergique rapide ;
+- coup de chaleur possible ;
+- vomissements répétés ou impossibilité de boire ;
+- froid ;
+- chaleur et troubles liés aux sels ;
+- altitude ;
+- amélioration durable ;
+- terrain engagé.
+
+L’objectif est d’éviter deux erreurs : appeler automatiquement pour tout malaise, ou banaliser une situation qui dépasse une fatigue normale.

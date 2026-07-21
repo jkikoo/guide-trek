@@ -81,3 +81,19 @@ Une tente ne protège pas de la foudre. Toutefois, « attendre 30 minutes » n�
 - Le montage est prioritaire quand il réduit immédiatement plusieurs risques et qu’aucun danger supérieur n’interdit le site.
 
 Situation stabilisée : abri ancré, eau éloignée, couchage sec, personne réchauffée, matériel critique accessible et repli possible.
+
+## Intégration HTML
+
+Le POC intégré couvre le bivouac général en plus du bivouac sous météo dégradée :
+
+- site dangereux ;
+- drainage et issue de repli ;
+- vent et ancrages ;
+- personne froide, mouillée ou épuisée ;
+- abri utilisable ;
+- abri partagé ou protection de fortune ;
+- matériel prêt en cas de repli ;
+- camp menacé ;
+- démontage non prêt.
+
+Le site prime sur la vitesse de montage. Un camp déjà installé peut devenir mauvais si l’eau, le vent, la pente ou les ancrages évoluent.

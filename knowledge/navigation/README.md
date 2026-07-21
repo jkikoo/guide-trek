@@ -20,3 +20,17 @@
 ## Cohérence
 
 Ne jamais proposer de couper hors sentier « vers la trace » sans vérifier pente, barres rocheuses, torrents et végétation. Le bivouac prévu n’est pas une preuve que la direction supposée est correcte.
+
+## Intégration HTML
+
+Le POC intégré distingue désormais :
+
+- point sûr ;
+- dernier point certain ;
+- retour connu ;
+- recoupement carte/GPS/relief ;
+- sentier ou balisage retrouvé ;
+- nuit, batterie faible ou terrain bloquant ;
+- groupe séparé.
+
+La réponse attendue peut être une action prioritaire, un avis prudent ou une information insuffisante. L’incertitude de navigation ne doit jamais conclure à une progression normale.

@@ -1,6 +1,6 @@
 # Météo
 
-Cette section regroupe les décisions liées à la pluie, au vent, à l’orage, au brouillard, au froid, à la chaleur et aux autres phénomènes météorologiques.
+Cette section regroupe les décisions liées à la pluie, au vent, à l’orage, au brouillard, à la visibilité réduite, au froid, à la chaleur et aux autres phénomènes météorologiques.
 
 Avant toute recommandation, lire `../architecture/contexte.md`, puis appliquer `../architecture/coherence.md`.
 
