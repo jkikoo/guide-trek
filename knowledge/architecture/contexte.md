@@ -1,21 +1,21 @@
 # Contexte stratégique commun à tous les guides
 
-Avant toute recommandation, le moteur doit connaître **l’intention opérationnelle actuelle**. Cette information est plus importante qu’un simple score météo.
+Avant toute recommandation, le moteur doit connaître **la situation opérationnelle actuelle**. Cette information est plus importante qu’un simple score météo ou qu’une intention déclarée.
 
 ## Question obligatoire
 
-> Où en es-tu et quelle option est encore réellement ouverte ?
+> Où en es-tu maintenant ?
 
 Réponses normalisées :
 
-1. **Continuer l’étape** — l’objectif est encore devant et le groupe envisage de poursuivre.
-2. **Faire demi-tour** — le retour vers le dernier point sûr est envisagé ou déjà commencé.
-3. **Rejoindre une échappatoire** — refuge, route, vallée, véhicule ou autre sortie distincte de l’itinéraire prévu.
+1. **En cours d’étape** — le groupe est encore en déplacement sur l’itinéraire prévu.
+2. **Sur le trajet de retour** — le groupe revient vers un point déjà connu ou envisage ce trajet.
+3. **Vers une sortie possible** — refuge, route, vallée, véhicule ou autre sortie distincte de l’itinéraire prévu.
 4. **Presque au bivouac** — le site prévu est proche, mais un dernier passage reste à franchir.
 5. **Sur la zone de bivouac, tente non montée** — l’objectif de marche est terminé ; la priorité devient le choix du site et la création d’un abri.
 6. **Bivouac installé** — la priorité devient la sécurité du camp, la chaleur, le drainage et le repli éventuel.
 7. **Démontage en cours** — conserver un abri opérationnel jusqu’au départ réel.
-8. **Je ne sais pas** — revenir aux faits observables et choisir l’option la plus réversible.
+8. **Situation difficile à qualifier** — revenir aux faits observables et identifier les options réellement ouvertes.
 
 ## Règle de cohérence
 
@@ -28,6 +28,19 @@ Exemples d’incompatibilités :
 - proposer « monter la tente » à une personne encore engagée sur une crête ou dans une ravine ;
 - proposer « faire demi-tour » sans vérifier que le retour est plus sûr que la suite ;
 - proposer « rejoindre le bivouac prévu » si le dernier passage est devenu dangereux.
+- proposer « appeler les secours » comme réflexe automatique si l’état médical est stable, compréhensible et gérable avec une sortie prudente.
+
+## Biais humains à prendre en compte
+
+Le demi-tour est souvent vécu comme un échec, même par des randonneurs expérimentés. Le guide ne doit ni dramatiser ce choix, ni le présenter comme une solution morale. Il doit l’évaluer comme une option terrain parmi d’autres.
+
+Un retour connu n’est pas forcément plus sûr : la pluie, la neige, le vent, la fatigue, la nuit ou une crue peuvent avoir transformé le terrain déjà parcouru.
+
+Une échappatoire proche n’est pas forcément meilleure si elle impose un col, une crête, un torrent, un pierrier instable ou un passage engagé.
+
+Une perte de matériel critique, par exemple une tente au milieu d’un trek, n’implique pas automatiquement un demi-tour. Selon le terrain, la météo, l’heure, la distance et les abris disponibles, continuer vers une cabane, rejoindre une vallée ou créer une solution de fortune peut être plus adapté.
+
+Un malaise ou une maladie n’implique pas automatiquement l’appel aux secours. L’appel devient prioritaire en cas de signe grave, aggravation, incapacité de déplacement sûre, isolement ou absence d’option autonome réaliste. Sinon, le meilleur avis peut être repos, protection, hydratation, surveillance et sortie prudente.
 
 ## Ordre général de décision
 

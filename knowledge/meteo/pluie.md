@@ -4,7 +4,7 @@
 
 La pluie n’impose pas à elle seule de monter la tente. La décision dépend de la phase, du terrain, de la marge, de l’état humain, de l’abri disponible et du matériel sec.
 
-Le moteur ne choisit pas directement une branche. Il génère des actions candidates, applique le score de `../architecture/coherence.md`, élimine les incompatibilités, puis ordonne la checklist.
+La doctrine ne doit pas exposer de mécanique de score à l’utilisateur. Elle compare les options réellement ouvertes, élimine les contradictions terrain, puis formule un avis de terrain avec les précautions nécessaires.
 
 ## Phase du trek
 
@@ -12,11 +12,13 @@ Le moteur ne choisit pas directement une branche. Il génère des actions candid
 
 Actions candidates : continuer sous contrôle, revenir, rejoindre une échappatoire, attendre dans un abri sûr.
 
-Continuer n’est autorisé que si : position certaine, terrain simple, groupe chaud, marge correcte, matériel essentiel sec et absence de danger prioritaire.
+Continuer n’est acceptable que si : position certaine, terrain simple, groupe chaud, marge correcte, matériel essentiel sec, absence de danger prioritaire et absence d’engagement où l’arrêt suivant serait impossible.
+
+Si le groupe est déjà engagé dans un passage, la recommandation ne doit pas supposer que faire demi-tour est plus sûr. Il faut comparer le point stable le plus proche devant, derrière ou à côté, puis décider depuis ce point.
 
 ### Étape avancée ou presque arrivé
 
-Le poids du temps, de la fatigue et du prochain passage augmente. Un bivouac anticipé devient cohérent seulement si un emplacement acceptable existe et si rester n’introduit pas un danger supérieur.
+Le poids du temps, de la fatigue, du froid et du prochain passage augmente. Un bivouac anticipé devient cohérent seulement si un emplacement acceptable existe et si rester n’introduit pas un danger supérieur.
 
 ### Arrivé, tente non montée
 
@@ -32,40 +34,47 @@ La décision porte sur drainage, ancrages, condensation, matériel sec et capaci
 
 Conserver l’abri jusqu’à ce que le groupe, le sac, la navigation et la destination soient prêts. Rétablir l’abri si les conditions se dégradent.
 
-## Actions candidates et scores indicatifs
+## Comparaison des options
 
 ### Monter rapidement la tente
 
-- `+500` arrivée au bivouac sans abri ;
-- `+250` pluie ;
-- `+200` vent ou refroidissement ;
-- `+200` duvet menacé ;
-- `+150` nuit proche ;
-- `-1000` site inondable, instable ou exposé à un danger actif.
+À privilégier si le groupe est arrivé ou proche d’un site acceptable, que pluie, vent ou froid menacent le couchage, et qu’aucun danger supérieur n’interdit le lieu.
+
+À refuser si le site est inondable, instable, exposé à la foudre, aux pierres, à une pente active ou à un arbre menaçant.
 
 ### Continuer
 
-- `+250` début/milieu d’étape ;
-- `+150` terrain simple et position certaine ;
-- `+100` sortie proche ;
-- `-500` position incertaine ;
-- `-500` nuit proche et fatigue ;
-- `-1000` danger prioritaire.
+À envisager seulement si le terrain reste simple, la position certaine, le groupe chaud, la marge horaire réelle, le matériel critique protégé et le prochain point de réévaluation clair.
+
+À refuser si la progression absorbe toute la marge, impose une crête, un torrent, une zone exposée ou masque un refroidissement.
 
 ### Rejoindre une échappatoire
 
-- `+300` sortie proche ;
-- `+250` terrain plus difficile devant ;
-- `+200` fatigue ou marge réduite ;
-- `-700` échappatoire nécessitant elle-même un passage dangereux.
+À privilégier si la sortie est confirmée en temps, distance et terrain, et si son accès évite les passages qui concentrent le risque.
+
+À requalifier en option incertaine si elle est longue, exposée ou fondée sur une supposition de carte non recoupée.
 
 ### Attendre
 
-- `+200` abri réellement sûr ;
-- `+150` phénomène bref et amélioration vérifiable ;
-- `-500` absence d’abri sous pluie/vent/froid ;
-- `-700` zone menacée ;
-- `-1000` personne qui se refroidit ou eau qui monte.
+À envisager seulement avec une protection réelle ou une amélioration vérifiable.
+
+À refuser sans abri sous pluie, vent et froid, dans une zone menacée, ou si une personne se refroidit.
+
+### Faire demi-tour
+
+À envisager si le retour est connu, moins exposé maintenant et compatible avec l’état du groupe.
+
+À refuser comme réflexe automatique. Le terrain derrière peut avoir changé avec l’eau, la boue, le vent, la fatigue ou la nuit. Un retour long avec une personne froide peut être moins sûr qu’un abri proche, une échappatoire courte ou une stabilisation locale.
+
+### Gérer une tente perdue ou inutilisable
+
+La perte de tente ne conclut pas automatiquement au demi-tour. Comparer d’abord :
+
+- abri d’un autre groupe, cabane, auvent, sursac ou protection de fortune ;
+- distance vers route, refuge, vallée ou point connu ;
+- état humain, pluie, vent, froid et heure ;
+- possibilité de tenir temporairement au sec ;
+- faisabilité d’un appel à l’aide.
 
 ## Checklists de référence
 
@@ -102,7 +111,10 @@ Conserver l’abri jusqu’à ce que le groupe, le sac, la navigation et la dest
 - proposer de monter la tente dans une zone menacée ;
 - proposer de sortir le duvet avant fermeture de l’abri ;
 - afficher les trente minutes après le tonnerre comme première action au lieu d’un critère de reprise.
+- proposer un demi-tour sans vérifier que le retour est moins exposé maintenant ;
+- proposer une sortie longue à une personne trempée et froide sans protection ;
+- proposer de récupérer du matériel dans l’axe d’une crue.
 
 ## Incertitude
 
-S’arrêter sur un point stable, vérifier tonnerre, eau, état mental, position, lumière et abri disponible. Choisir ensuite l’action la plus prudente et réversible. L’incertitude ne conclut jamais « continuer normalement ».
+S’arrêter sur un point stable, vérifier tonnerre, eau, état mental, position, lumière, durée réelle et abri disponible. Choisir ensuite l’action la plus adaptée et la plus réversible parmi les options praticables. L’incertitude ne conclut jamais « continuer normalement ».
