@@ -19,6 +19,7 @@ Ce dossier est la **source de vérité éditoriale** du guide. `index.html` est 
 - `navigation/` : perte de trace, position incertaine et errance.
 - `sante/` : malaise, fatigue, froid, chaleur et sensation anormale.
 - `materiel/` : matériel endommagé, perdu ou devenu inutilisable.
+- `nourriture/` : énergie, rationnement, perte de nourriture, appétit et stockage.
 - `secours/` : décision d’appel, informations à transmettre et attente.
 - `eau/` : manque d’eau, source douteuse, traitement et franchissement.
 

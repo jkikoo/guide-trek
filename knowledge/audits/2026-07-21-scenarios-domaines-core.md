@@ -43,6 +43,19 @@ Ces scénarios servent à auditer `index.html` après extension des domaines hor
 | En cours d’étape | `critical + backup` | continuer seulement après vérification | ignorer la panne | redondance doit être réelle |
 | En cours d’étape | `light + dark` sans `backup` | stopper ou réduire avant pénombre | finir à la lampe du téléphone | éclairage fixe la limite réelle de l’étape |
 
+## Nourriture
+
+| Contexte | Faits | Attendu | Interdit | Raison terrain |
+|---|---|---|---|---|
+| En cours d’étape | `weak` sans `snacks` | restaurer énergie avant option longue | continuer ou rationner abstraitement | faiblesse et froid changent la sécurité immédiate |
+| Camp | `lostFood + animalRisk` | sécuriser odeurs, ne pas poursuivre l’animal | courir après l’animal ou dormir avec odeurs | nourriture dispersée change le risque du camp |
+| En cours d’étape | `noCook` sans `snacks` | compter seulement la nourriture mangeable maintenant | considérer les repas comme disponibles | repas sans eau/cuisson possible = réserve théorique |
+| En cours d’étape | `low + far` sans `exit` | réduire objectif et recalculer | poursuivre normalement | déficit sur plusieurs jours use lucidité et chaleur |
+| Échappatoire | `low + exit` | rejoindre l’option confirmée sans courir | rationner jusqu’à l’objectif initial | sortie proche réduit le risque |
+| En cours d’étape | `noAppetite + snacks` | petites prises et surveillance | attendre le gros repas suivant | nourriture disponible n’est pas énergie consommée |
+| En cours d’étape | `share + snacks` | redistribuer avant de rationner | laisser chacun gérer son sac | la personne faible engage tout le groupe |
+| En cours d’étape | `unsafe` sans `snacks` | ne pas compter comme réserve fiable | donner à la personne fragile | nourriture suspecte peut aggraver l’état |
+
 ## Bivouac
 
 | Contexte | Faits | Attendu | Interdit | Raison terrain |
