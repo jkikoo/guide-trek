@@ -7,7 +7,7 @@ Déterminer si la panne est gênante, compromet l’étape ou supprime une capac
 ## Arbre proposé
 
 1. **Contexte stratégique obligatoire** : progression, retour, échappatoire, zone de bivouac ou camp installé.
-2. **Fonction touchée** : abri, couchage, vêtements imperméables, chaussures, eau, cuisson, navigation, communication, éclairage ou portage.
+2. **Fonction touchée** : abri, couchage, vêtements imperméables, chaussures, navigation, communication, éclairage ou portage.
 3. **Redondance disponible** : autre appareil, réparation, partage dans le groupe ou solution sans matériel.
 4. **Temps et environnement** : nuit, froid, pluie, vent, éloignement et passages techniques.
 5. **Décision** :
@@ -40,7 +40,6 @@ Le POC intégré traite séparément :
 - chaussure ou semelle défaillante ;
 - navigation ou batterie inutilisable ;
 - frontale, lampe ou éclairage inutilisable ;
-- nourriture très insuffisante sur durée longue ;
 - redondance ;
 - réparation possible ;
 - nuit, météo ou terrain engagé ;
