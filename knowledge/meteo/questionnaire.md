@@ -6,19 +6,27 @@ Le questionnaire météo ne doit pas être une liste unique affichée dans tous 
 
 Chaque question doit aider à décider une action possible maintenant. Une question inutile dans le contexte augmente le risque de mauvaise interprétation.
 
+Le questionnaire doit respecter l’ordre vécu par l’utilisateur : problème choisi, contexte choisi, faits observables, puis seulement si nécessaire une précision déclenchée par ces faits. Une question de réévaluation ne doit pas apparaître avant que le symptôme correspondant ait été coché.
+
 ## Ordre des questions
 
 1. **Dangers immédiats** : tonnerre, eau qui monte, hypothermie probable.
-2. **Météo et état humain** : pluie, vent, personne trempée et froide, amélioration réelle après protection, matériel critique protégé.
+2. **Météo, froid et matériel** : pluie, vent, visibilité, personne trempée et froide, matériel critique protégé.
 3. **Protection utilisable** : bâtiment fermé, véhicule, abri partagé, protection de fortune, tente perdue ou couchage mouillé.
 4. **Bloc contextuel** :
    - progression : terrain, exposition, engagement déjà pris, point stable ;
-   - retour : retour connu et moins exposé ;
-   - échappatoire : accès confirmé et sans passage engagé ;
+   - retour : même chemin jusqu’au dernier point sûr, sans torrent, crête ou passage exposé ;
+   - échappatoire : sortie localisée avec durée, distance et accès sans col, torrent ou passage engagé ;
    - zone de bivouac : site non menacé et drainant ;
    - camp installé : menace sur le camp et stabilité de l’abri ;
    - démontage : départ réellement prêt avant perte de l’abri.
-5. **Temps et distance** : option proche confirmée, option la plus proche à plus d’une heure, marge avant nuit ou aggravation.
+5. **Temps et distance** : option proche visible ou confirmée, option la plus proche à plus d’une heure, lumière restante suffisante pour rejoindre le prochain point sûr avec marge.
+6. **Précision conditionnelle** : si une personne trempée et froide mais encore lucide est cochée, demander ensuite ce qui est observé après protection :
+   - elle reparle normalement depuis 10 minutes ;
+   - elle reste froide, tremble ou répond lentement ;
+   - confusion, somnolence, maladresse forte ou frissons incontrôlables ;
+   - aucune protection contre vent, pluie ou sol froid n’est en place.
+   Ne pas afficher ces questions si seuls pluie, vent, brouillard, abri ou terrain sont cochés.
 
 ## Questions à éviter
 
@@ -28,19 +36,24 @@ Chaque question doit aider à décider une action possible maintenant. Une quest
 - Une question dont la réponse positive déclenche une action sans précondition.
 - Une question qui demande si l’utilisateur veut continuer, revenir ou appeler au lieu de décrire le terrain.
 - Une question trop précise sur l’intention finale alors que le contexte n’est pas encore compris.
+- Une question qui demande si l’utilisateur est « rétabli », « capable », « en sécurité » ou « maîtrise » la situation.
+- Une question de réévaluation humaine affichée comme un fait météo général. Elle doit être conditionnée par un symptôme humain explicite : froid, malaise, blessure, panique, confusion, fatigue anormale.
 
 ## Formulations attendues
 
 Préférer :
 
 - « Site hors ravine, berge, cuvette, crête, arbre menaçant et chute de pierres » ;
-- « Sol drainant avec une issue de repli possible » ;
+- « Le sol n’a pas d’eau stagnante et une sortie de repli est visible » ;
 - « Retour connu jusqu’au dernier point sûr » ;
-- « Échappatoire accessible sans col, torrent ou passage engagé ».
+- « Le retour reprend le même chemin sans torrent, crête ou passage exposé » ;
+- « Sortie localisée avec durée, distance et chemin identifié » ;
+- « Le chemin vers la sortie évite col, torrent et passage engagé » ;
 - « Déjà engagé dans un passage où revenir ou s’arrêter est difficile » ;
-- « Point sûr, abri, retour ou sortie à moins d’une heure » ;
+- « Vous voyez un endroit plat proche où tout le groupe peut s’arrêter » ;
+- « Point sûr, abri, retour ou sortie visible ou confirmé à moins d’une heure » ;
 - « Tente perdue, inutilisable ou couchage mouillé » ;
-- « État amélioré durablement après protection ».
+- en précision conditionnelle seulement : « La personne reparle normalement depuis 10 minutes ».
 
 Éviter :
 
@@ -48,6 +61,11 @@ Préférer :
 - « Retour possible » ;
 - « Échappatoire proche » ;
 - « Mauvais temps ».
+- « État amélioré durablement » ;
+- « Terrain simple et progression maîtrisée » ;
+- « Option réellement praticable » ;
+- « Retour plus sûr » ;
+- « Échappatoire accessible sans danger supérieur » ;
 - « Je pense pouvoir continuer » ;
 - « Je veux faire demi-tour » ;
 - « Appeler les secours ? » comme question de préférence.

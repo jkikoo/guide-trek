@@ -50,6 +50,12 @@ Chaque section doit recueillir :
 
 Les questions doivent rester observables. Éviter les formulations qui demandent une interprétation experte sans critères concrets.
 
+Règle générale : ne jamais demander à l’utilisateur s’il est « rétabli », « capable », « en sécurité » ou s’il « maîtrise » la situation. Demander une preuve simple adaptée au sujet réel : parole normale depuis 10 minutes seulement si un état humain est déjà signalé, 20 pas sans aide ni trébuchement dans blessure/secours, chemin visible ou localisé pour navigation/échappatoire, absence de torrent/crête/passage exposé sur le retour, lumière restante estimée avec le rythme actuel du groupe, groupe entier réuni.
+
+Les preuves de réévaluation doivent être des questions de second temps. Exemple : ne pas afficher « parle normalement depuis 10 minutes » dans le bloc météo initial ; l’afficher seulement après que l’utilisateur a coché une personne trempée et froide, un malaise, une panique ou un autre signe humain.
+
+Toute précision conditionnelle doit proposer au moins trois issues observables : amélioration limitée, absence d’amélioration nette, aggravation ou signe rouge. Chacune de ces réponses doit être utilisée dans la décision finale ; une précision affichée à l’utilisateur ne doit jamais être une simple information décorative.
+
 Les questions doivent aussi être filtrées par contexte. Une section ne doit pas afficher la même liste à une personne qui marche encore, qui est déjà au bivouac, qui démonte son abri ou qui ne sait plus quelle option choisir.
 
 Une question doit être supprimée ou déplacée si :
@@ -104,11 +110,15 @@ Préférer :
 
 Une recommandation ne doit pas se limiter à une phrase d’avis et une checklist sèche. L’utilisateur consulte souvent l’outil parce qu’il est fatigué, mouillé, inquiet, pressé ou moins capable de réfléchir clairement.
 
-Chaque résultat affiché doit donc contenir trois niveaux :
+Chaque résultat affiché doit donc contenir plusieurs niveaux :
 
 1. **Avis terrain** : ce qui paraît le plus adapté maintenant.
-2. **Encarts courts** : comment exécuter les premières actions sans se tromper.
-3. **Checklist** : gestes ordonnés à cocher.
+2. **Faits retenus** : les réponses principales qui ont déclenché l’avis.
+3. **Actions immédiates** : ce qui reste valable même si les options idéales manquent.
+4. **Conditions** : ce qui vaut seulement si une ressource ou une option existe réellement.
+5. **Alternative si impossible** : quoi faire si abri, ombre, eau, réseau, point stable, retour ou sortie ne sont pas disponibles.
+6. **Surveillance** : signes qui annulent l’option prévue.
+7. **Checklist** : gestes ordonnés à cocher, formulés pour ne pas supposer une ressource non confirmée.
 
 Les encarts doivent rester très courts. Ils ne remplacent pas une formation et ne doivent pas devenir un manuel. Ils servent à guider l’action immédiate :
 
@@ -117,12 +127,14 @@ Les encarts doivent rester très courts. Ils ne remplacent pas une formation et 
 - quoi vérifier sur la personne, le terrain ou le matériel ;
 - comment éviter l’erreur classique du domaine ;
 - quand réévaluer.
+- quoi faire si l’action idéale n’est pas possible.
 
 Format recommandé :
 
 - **D’abord** ou **Avant de bouger** : action mentale et physique immédiate.
 - **À observer** ou **À vérifier** : critères simples que l’utilisateur peut constater.
 - **Geste pratique** ou **Point de contrôle** : mini-tutoriel de quelques mots pour appliquer correctement la checklist.
+- **Si aucune protection / option / ressource n’existe** : alternative dégradée et seuil d’appel.
 
 Les encarts ne doivent pas exposer le fonctionnement interne de la décision. Ils doivent parler comme un encadrant à côté du groupe : concret, calme, court.
 
