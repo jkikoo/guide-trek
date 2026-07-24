@@ -22,8 +22,9 @@ Ce dossier est la **source de vérité éditoriale** du guide. `index.html` est 
 - `nourriture/` : énergie, rationnement, perte de nourriture, appétit et stockage.
 - `secours/` : décision d’appel, informations à transmettre et attente.
 - `eau/` : manque d’eau, source douteuse, traitement et franchissement.
+- `terrain/` : difficultés techniques du terrain : exposition, pierriers, névés, boue, blocs, couloirs, passage équipé ou sentier impraticable.
 
-D’autres sections pourront être ajoutées : neige, feu et gestion du groupe.
+D’autres sections pourront être ajoutées : feu et gestion du groupe.
 
 ## Principe directeur
 
